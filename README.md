@@ -1,4 +1,3 @@
-# Valentine
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,7 +12,7 @@
       justify-content: center;
       align-items: center;
       background: linear-gradient(135deg, #ff9a9e, #fad0c4);
-      font-family: Arial, sans-serif;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
     }
 
     .card {
@@ -65,6 +64,13 @@
       display: none;
     }
 
+    #cite {
+      margin-top: 25px;
+      font-size: 0.9rem;
+      color: #888;
+      font-style: italic;
+    }
+
     canvas {
       position: fixed;
       top: 0;
@@ -79,13 +85,16 @@
   <canvas id="fireworks"></canvas>
 
   <div class="card">
-    <h1>Will you be my Valentine? 💘</h1>
-    <h2>Mishti — <em>queen of the whole universe</em> 👑🌌</h2>
+    <h1>Hey Mishti! 💌</h1>
+    <h2>Queen of the Whole Universe 👑🌌</h2>
 
-    <button id="yes">Yes 💖</button>
-    <button id="no">No 😢</button>
+    <p style="margin-bottom: 20px;">Will you accept this *very official*, *extremely fancy* Valentine invitation? 💖</p>
 
-    <div id="message">YAYYY!! THE UNIVERSE CELEBRATES 🎆💞</div>
+    <button id="yes">Yes, obviously! 💕</button>
+    <button id="no">No… never 😢</button>
+
+    <div id="message">YAYYY!! The universe approves 🎆🌟💞</div>
+    <div id="cite">“Officially declared for Mishti, Queen of the Whole Universe” — Ankur 💖</div>
   </div>
 
   <script>
